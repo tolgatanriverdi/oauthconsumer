@@ -1,3 +1,6 @@
 OAuthConsumer for iPhone
+========================
 
-http://oauth.googlecode.com/svn/code/obj-c1/
+A fork of OAuthConsumer by Jon Crosby[1] configured to compile as a static library for iOS.
+
+[1] http://code.google.com/p/oauthconsumer/
