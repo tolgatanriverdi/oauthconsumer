@@ -8,41 +8,63 @@
 
 /* Begin PBXBuildFile section */
 		2525FC44106D55680069EBED /* Base64Transcoder.c in Sources */ = {isa = PBXBuildFile; fileRef = 2525FC22106D55680069EBED /* Base64Transcoder.c */; };
-		2525FC45106D55680069EBED /* Base64Transcoder.h in Headers */ = {isa = PBXBuildFile; fileRef = 2525FC23106D55680069EBED /* Base64Transcoder.h */; };
 		2525FC46106D55680069EBED /* hmac.c in Sources */ = {isa = PBXBuildFile; fileRef = 2525FC24106D55680069EBED /* hmac.c */; };
-		2525FC47106D55680069EBED /* hmac.h in Headers */ = {isa = PBXBuildFile; fileRef = 2525FC25106D55680069EBED /* hmac.h */; };
 		2525FC48106D55680069EBED /* sha1.c in Sources */ = {isa = PBXBuildFile; fileRef = 2525FC26106D55680069EBED /* sha1.c */; };
-		2525FC49106D55680069EBED /* sha1.h in Headers */ = {isa = PBXBuildFile; fileRef = 2525FC27106D55680069EBED /* sha1.h */; };
-		2525FC4A106D55680069EBED /* NSMutableURLRequest+Parameters.h in Headers */ = {isa = PBXBuildFile; fileRef = 2525FC28106D55680069EBED /* NSMutableURLRequest+Parameters.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2525FC4B106D55680069EBED /* NSMutableURLRequest+Parameters.m in Sources */ = {isa = PBXBuildFile; fileRef = 2525FC29106D55680069EBED /* NSMutableURLRequest+Parameters.m */; };
-		2525FC4C106D55680069EBED /* NSString+URLEncoding.h in Headers */ = {isa = PBXBuildFile; fileRef = 2525FC2A106D55680069EBED /* NSString+URLEncoding.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2525FC4D106D55680069EBED /* NSString+URLEncoding.m in Sources */ = {isa = PBXBuildFile; fileRef = 2525FC2B106D55680069EBED /* NSString+URLEncoding.m */; };
-		2525FC4E106D55680069EBED /* NSURL+Base.h in Headers */ = {isa = PBXBuildFile; fileRef = 2525FC2C106D55680069EBED /* NSURL+Base.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2525FC4F106D55680069EBED /* NSURL+Base.m in Sources */ = {isa = PBXBuildFile; fileRef = 2525FC2D106D55680069EBED /* NSURL+Base.m */; };
-		2525FC50106D55680069EBED /* OAAsynchronousDataFetcher.h in Headers */ = {isa = PBXBuildFile; fileRef = 2525FC2E106D55680069EBED /* OAAsynchronousDataFetcher.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2525FC51106D55680069EBED /* OAAsynchronousDataFetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 2525FC2F106D55680069EBED /* OAAsynchronousDataFetcher.m */; };
-		2525FC52106D55680069EBED /* OAConsumer.h in Headers */ = {isa = PBXBuildFile; fileRef = 2525FC30106D55680069EBED /* OAConsumer.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2525FC53106D55680069EBED /* OAConsumer.m in Sources */ = {isa = PBXBuildFile; fileRef = 2525FC31106D55680069EBED /* OAConsumer.m */; };
-		2525FC54106D55680069EBED /* OADataFetcher.h in Headers */ = {isa = PBXBuildFile; fileRef = 2525FC32106D55680069EBED /* OADataFetcher.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2525FC55106D55680069EBED /* OADataFetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 2525FC33106D55680069EBED /* OADataFetcher.m */; };
-		2525FC56106D55680069EBED /* OAHMAC_SHA1SignatureProvider.h in Headers */ = {isa = PBXBuildFile; fileRef = 2525FC34106D55680069EBED /* OAHMAC_SHA1SignatureProvider.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2525FC57106D55680069EBED /* OAHMAC_SHA1SignatureProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = 2525FC35106D55680069EBED /* OAHMAC_SHA1SignatureProvider.m */; };
-		2525FC58106D55680069EBED /* OAMutableURLRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 2525FC36106D55680069EBED /* OAMutableURLRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2525FC59106D55680069EBED /* OAMutableURLRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 2525FC37106D55680069EBED /* OAMutableURLRequest.m */; };
-		2525FC5A106D55680069EBED /* OAPlaintextSignatureProvider.h in Headers */ = {isa = PBXBuildFile; fileRef = 2525FC38106D55680069EBED /* OAPlaintextSignatureProvider.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2525FC5B106D55680069EBED /* OAPlaintextSignatureProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = 2525FC39106D55680069EBED /* OAPlaintextSignatureProvider.m */; };
-		2525FC5C106D55680069EBED /* OARequestParameter.h in Headers */ = {isa = PBXBuildFile; fileRef = 2525FC3A106D55680069EBED /* OARequestParameter.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2525FC5D106D55680069EBED /* OARequestParameter.m in Sources */ = {isa = PBXBuildFile; fileRef = 2525FC3B106D55680069EBED /* OARequestParameter.m */; };
-		2525FC5E106D55680069EBED /* OAServiceTicket.h in Headers */ = {isa = PBXBuildFile; fileRef = 2525FC3C106D55680069EBED /* OAServiceTicket.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2525FC5F106D55680069EBED /* OAServiceTicket.m in Sources */ = {isa = PBXBuildFile; fileRef = 2525FC3D106D55680069EBED /* OAServiceTicket.m */; };
-		2525FC60106D55680069EBED /* OASignatureProviding.h in Headers */ = {isa = PBXBuildFile; fileRef = 2525FC3E106D55680069EBED /* OASignatureProviding.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2525FC61106D55680069EBED /* OAToken.h in Headers */ = {isa = PBXBuildFile; fileRef = 2525FC3F106D55680069EBED /* OAToken.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2525FC62106D55680069EBED /* OAToken.m in Sources */ = {isa = PBXBuildFile; fileRef = 2525FC40106D55680069EBED /* OAToken.m */; };
-		2525FC65106D55680069EBED /* OAuthConsumer.h in Headers */ = {isa = PBXBuildFile; fileRef = 2525FC43106D55680069EBED /* OAuthConsumer.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7166850311D5447E00E209C6 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7166850211D5447E00E209C6 /* Security.framework */; };
-		AA747D9F0F9514B9006C5449 /* OAuthConsumer_Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = AA747D9E0F9514B9006C5449 /* OAuthConsumer_Prefix.pch */; };
+		71CEDF8C14CF988D00A7DA7D /* NSMutableURLRequest+Parameters.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 2525FC28106D55680069EBED /* NSMutableURLRequest+Parameters.h */; };
+		71CEDF8D14CF988D00A7DA7D /* NSString+URLEncoding.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 2525FC2A106D55680069EBED /* NSString+URLEncoding.h */; };
+		71CEDF8E14CF988D00A7DA7D /* NSURL+Base.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 2525FC2C106D55680069EBED /* NSURL+Base.h */; };
+		71CEDF8F14CF988D00A7DA7D /* OAAsynchronousDataFetcher.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 2525FC2E106D55680069EBED /* OAAsynchronousDataFetcher.h */; };
+		71CEDF9014CF988D00A7DA7D /* OAConsumer.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 2525FC30106D55680069EBED /* OAConsumer.h */; };
+		71CEDF9114CF988D00A7DA7D /* OADataFetcher.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 2525FC32106D55680069EBED /* OADataFetcher.h */; };
+		71CEDF9214CF988D00A7DA7D /* OAHMAC_SHA1SignatureProvider.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 2525FC34106D55680069EBED /* OAHMAC_SHA1SignatureProvider.h */; };
+		71CEDF9314CF988D00A7DA7D /* OAMutableURLRequest.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 2525FC36106D55680069EBED /* OAMutableURLRequest.h */; };
+		71CEDF9414CF988D00A7DA7D /* OAPlaintextSignatureProvider.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 2525FC38106D55680069EBED /* OAPlaintextSignatureProvider.h */; };
+		71CEDF9514CF988D00A7DA7D /* OARequestParameter.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 2525FC3A106D55680069EBED /* OARequestParameter.h */; };
+		71CEDF9614CF988D00A7DA7D /* OAServiceTicket.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 2525FC3C106D55680069EBED /* OAServiceTicket.h */; };
+		71CEDF9714CF988D00A7DA7D /* OASignatureProviding.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 2525FC3E106D55680069EBED /* OASignatureProviding.h */; };
+		71CEDF9814CF988D00A7DA7D /* OAToken.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 2525FC3F106D55680069EBED /* OAToken.h */; };
+		71CEDF9914CF988D00A7DA7D /* OAuthConsumer.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 2525FC43106D55680069EBED /* OAuthConsumer.h */; };
 		AACBBE4A0F95108600F1A2B1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AACBBE490F95108600F1A2B1 /* Foundation.framework */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		71CEDF8B14CF987D00A7DA7D /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = Headers/OAConsumer;
+			dstSubfolderSpec = 16;
+			files = (
+				71CEDF8C14CF988D00A7DA7D /* NSMutableURLRequest+Parameters.h in CopyFiles */,
+				71CEDF8D14CF988D00A7DA7D /* NSString+URLEncoding.h in CopyFiles */,
+				71CEDF8E14CF988D00A7DA7D /* NSURL+Base.h in CopyFiles */,
+				71CEDF8F14CF988D00A7DA7D /* OAAsynchronousDataFetcher.h in CopyFiles */,
+				71CEDF9014CF988D00A7DA7D /* OAConsumer.h in CopyFiles */,
+				71CEDF9114CF988D00A7DA7D /* OADataFetcher.h in CopyFiles */,
+				71CEDF9214CF988D00A7DA7D /* OAHMAC_SHA1SignatureProvider.h in CopyFiles */,
+				71CEDF9314CF988D00A7DA7D /* OAMutableURLRequest.h in CopyFiles */,
+				71CEDF9414CF988D00A7DA7D /* OAPlaintextSignatureProvider.h in CopyFiles */,
+				71CEDF9514CF988D00A7DA7D /* OARequestParameter.h in CopyFiles */,
+				71CEDF9614CF988D00A7DA7D /* OAServiceTicket.h in CopyFiles */,
+				71CEDF9714CF988D00A7DA7D /* OASignatureProviding.h in CopyFiles */,
+				71CEDF9814CF988D00A7DA7D /* OAToken.h in CopyFiles */,
+				71CEDF9914CF988D00A7DA7D /* OAuthConsumer.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		2525FC22106D55680069EBED /* Base64Transcoder.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = Base64Transcoder.c; sourceTree = "<group>"; };
@@ -181,40 +203,12 @@
 		};
 /* End PBXGroup section */
 
-/* Begin PBXHeadersBuildPhase section */
-		D2AAC07A0554694100DB518D /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				AA747D9F0F9514B9006C5449 /* OAuthConsumer_Prefix.pch in Headers */,
-				2525FC45106D55680069EBED /* Base64Transcoder.h in Headers */,
-				2525FC47106D55680069EBED /* hmac.h in Headers */,
-				2525FC49106D55680069EBED /* sha1.h in Headers */,
-				2525FC4A106D55680069EBED /* NSMutableURLRequest+Parameters.h in Headers */,
-				2525FC4C106D55680069EBED /* NSString+URLEncoding.h in Headers */,
-				2525FC4E106D55680069EBED /* NSURL+Base.h in Headers */,
-				2525FC50106D55680069EBED /* OAAsynchronousDataFetcher.h in Headers */,
-				2525FC52106D55680069EBED /* OAConsumer.h in Headers */,
-				2525FC54106D55680069EBED /* OADataFetcher.h in Headers */,
-				2525FC56106D55680069EBED /* OAHMAC_SHA1SignatureProvider.h in Headers */,
-				2525FC58106D55680069EBED /* OAMutableURLRequest.h in Headers */,
-				2525FC5A106D55680069EBED /* OAPlaintextSignatureProvider.h in Headers */,
-				2525FC5C106D55680069EBED /* OARequestParameter.h in Headers */,
-				2525FC5E106D55680069EBED /* OAServiceTicket.h in Headers */,
-				2525FC60106D55680069EBED /* OASignatureProviding.h in Headers */,
-				2525FC61106D55680069EBED /* OAToken.h in Headers */,
-				2525FC65106D55680069EBED /* OAuthConsumer.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXHeadersBuildPhase section */
-
 /* Begin PBXNativeTarget section */
 		D2AAC07D0554694100DB518D /* OAuthConsumer */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1DEB921E08733DC00010E9CD /* Build configuration list for PBXNativeTarget "OAuthConsumer" */;
 			buildPhases = (
-				D2AAC07A0554694100DB518D /* Headers */,
+				71CEDF8B14CF987D00A7DA7D /* CopyFiles */,
 				D2AAC07B0554694100DB518D /* Sources */,
 				D2AAC07C0554694100DB518D /* Frameworks */,
 			);
@@ -341,6 +335,37 @@
 			};
 			name = Release;
 		};
+		71CEDF2914CF966700A7DA7D /* AdHoc */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				OTHER_LDFLAGS = "-ObjC";
+				PREBINDING = NO;
+				PUBLIC_HEADERS_FOLDER_PATH = ./Headers/OAConsumer;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = AdHoc;
+		};
+		71CEDF2A14CF966700A7DA7D /* AdHoc */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				DSTROOT = /tmp/OAuthConsumer.dst;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = OAuthConsumer_Prefix.pch;
+				INSTALL_PATH = /usr/local/lib;
+				IPHONEOS_DEPLOYMENT_TARGET = 3.0;
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = OAuthConsumer;
+			};
+			name = AdHoc;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -349,6 +374,7 @@
 			buildConfigurations = (
 				1DEB921F08733DC00010E9CD /* Debug */,
 				1DEB922008733DC00010E9CD /* Release */,
+				71CEDF2A14CF966700A7DA7D /* AdHoc */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -358,6 +384,7 @@
 			buildConfigurations = (
 				1DEB922308733DC00010E9CD /* Debug */,
 				1DEB922408733DC00010E9CD /* Release */,
+				71CEDF2914CF966700A7DA7D /* AdHoc */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
